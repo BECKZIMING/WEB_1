@@ -84,4 +84,4 @@ def view_transactions():
 
 if __name__ == '__main__':
     # Run the Flask app on the port defined by the PORT environment variable, default to 8080 if not set
-    app.run(host='0.0.0.0', port=int(os.environ.get('PORT', 8080)))
+    app.run(host='0.0.0.0', port=int(os.environ.get('PORT', 5000)))
